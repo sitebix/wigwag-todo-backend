@@ -26,8 +26,8 @@ yarn develop
 
 As this is a test example of strapi CMS, there is an already connected DB running on dbforfree.net. Once you have your local delevopment running using command above. Use these links to access Admin Panel and APi Documentation
 
-[Admin Panel](http://localhost:1337/admin) 
-User: admin@demo.com
+[Admin Panel](http://localhost:1337/admin)<br/>
+User: admin@demo.com<br/>
 Pass: Password1
 
 [API Documentation](http://localhost:1337/documentation)
