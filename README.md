@@ -2,7 +2,17 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
-### `develop`
+### `Setup local deployment`
+
+Start by installing your modules
+
+```
+npm install
+# or
+yarn install
+```
+
+### `Run develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 
@@ -12,25 +22,16 @@ npm run develop
 yarn develop
 ```
 
-### `start`
+### `Testing`
 
-Start your Strapi application with autoReload disabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-start)
+As this is a test example of strapi CMS, there is an already connected DB running on dbforfree.net. Once you have your local delevopment running using command above. Use these links to access Admin Panel and APi Documentation
 
-```
-npm run start
-# or
-yarn start
-```
+[Admin Panel](http://localhost:1337/admin) 
+User: admin@demo.com
+Pass: Password1
 
-### `build`
+[API Documentation](http://localhost:1337/documentation)
 
-Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
-
-```
-npm run build
-# or
-yarn build
-```
 
 ## ⚙️ Deployment
 
